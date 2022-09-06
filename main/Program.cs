@@ -14,12 +14,14 @@ namespace main
             wild.Quak();
             wild.Swim();
             wild.Fly();
+            wild.Die();
             Console.WriteLine("\n");
 
             Rubber rubber = new Rubber();
             rubber.Quak();
             rubber.Swim();
             rubber.Fly();
+            rubber.Die();
             Console.WriteLine("\n");
 
             Metal metal = new Metal();
