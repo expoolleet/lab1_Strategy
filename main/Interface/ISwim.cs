@@ -1,5 +1,4 @@
-﻿
-namespace main
+﻿namespace main
 {
     interface ISwim
     {

@@ -46,24 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Domestic.cs" />
-    <Compile Include="DuckCantFly.cs" />
-    <Compile Include="DuckCantQuak.cs" />
-    <Compile Include="DuckCantSwim.cs" />
-    <Compile Include="DuckDie.cs" />
-    <Compile Include="IDie.cs" />
-    <Compile Include="IFly.cs" />
-    <Compile Include="Duck.cs" />
-    <Compile Include="IQuak.cs" />
-    <Compile Include="ISwim.cs" />
-    <Compile Include="Metal.cs" />
-    <Compile Include="Programm.cs" />
+    <Compile Include="Behaviors\FlyDuck.cs" />
+    <Compile Include="Ducks\Domestic.cs" />
+    <Compile Include="Behaviors\DuckCantFly.cs" />
+    <Compile Include="Behaviors\DuckCantQuak.cs" />
+    <Compile Include="Behaviors\DuckCantSwim.cs" />
+    <Compile Include="Behaviors\DuckDie.cs" />
+    <Compile Include="Interface\IDie.cs" />
+    <Compile Include="Interface\IFly.cs" />
+    <Compile Include="Abstract class\Duck.cs" />
+    <Compile Include="Interface\IQuak.cs" />
+    <Compile Include="Interface\ISwim.cs" />
+    <Compile Include="Ducks\Metal.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QuakDuck.cs" />
-    <Compile Include="Rubber.cs" />
-    <Compile Include="SwimDuck.cs" />
-    <Compile Include="Wild.cs" />
+    <Compile Include="Behaviors\QuakDuck.cs" />
+    <Compile Include="Ducks\Rubber.cs" />
+    <Compile Include="Behaviors\SwimDuck.cs" />
+    <Compile Include="Ducks\Wild.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
