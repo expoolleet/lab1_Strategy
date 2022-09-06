@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behaviors\DuckCantDie.cs" />
     <Compile Include="Behaviors\FlyDuck.cs" />
     <Compile Include="Ducks\Domestic.cs" />
     <Compile Include="Behaviors\DuckCantFly.cs" />
