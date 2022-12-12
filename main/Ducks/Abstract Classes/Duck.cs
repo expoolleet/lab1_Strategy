@@ -31,6 +31,5 @@ namespace main.Ducks.Abstract_Classes
         public void Quak() => quak.Quak();
 
         public void Die() => die.Die();
-
     }
 }
