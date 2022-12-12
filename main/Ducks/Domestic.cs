@@ -1,6 +1,4 @@
-﻿using System;
-using main.Ducks.AbstractClasses;
-using main.Behaviors;
+﻿using main.Behaviors;
 
 namespace main.Ducks
 {

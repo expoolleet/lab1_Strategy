@@ -55,7 +55,7 @@
     <Compile Include="Behaviors\DuckDie.cs" />
     <Compile Include="Interfaces\IDie.cs" />
     <Compile Include="Interfaces\IFly.cs" />
-    <Compile Include="Ducks\Abstract Classes\Duck.cs" />
+    <Compile Include="Ducks\Duck.cs" />
     <Compile Include="Interfaces\IQuak.cs" />
     <Compile Include="Interfaces\ISwim.cs" />
     <Compile Include="Ducks\Metal.cs" />

@@ -1,8 +1,7 @@
-﻿using System;
-using main.Behaviors;
+﻿using main.Behaviors;
 using main.Interfaces;
 
-namespace main.Ducks.AbstractClasses
+namespace main.Ducks
 {
     internal abstract class Duck 
     {
