@@ -53,11 +53,11 @@
     <Compile Include="Behaviors\DuckCantQuak.cs" />
     <Compile Include="Behaviors\DuckCantSwim.cs" />
     <Compile Include="Behaviors\DuckDie.cs" />
-    <Compile Include="Interface\IDie.cs" />
-    <Compile Include="Interface\IFly.cs" />
+    <Compile Include="Interfaces\IDie.cs" />
+    <Compile Include="Interfaces\IFly.cs" />
     <Compile Include="Ducks\Abstract Classes\Duck.cs" />
-    <Compile Include="Interface\IQuak.cs" />
-    <Compile Include="Interface\ISwim.cs" />
+    <Compile Include="Interfaces\IQuak.cs" />
+    <Compile Include="Interfaces\ISwim.cs" />
     <Compile Include="Ducks\Metal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

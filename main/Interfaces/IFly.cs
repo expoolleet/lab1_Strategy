@@ -1,4 +1,4 @@
-﻿namespace main
+﻿namespace main.Interfaces
 {
     interface IFly
     {

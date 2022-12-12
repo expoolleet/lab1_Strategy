@@ -1,6 +1,6 @@
 ﻿using System;
 using main.Behaviors;
-
+using main.Interfaces;
 
 namespace main.Ducks.AbstractClasses
 {
