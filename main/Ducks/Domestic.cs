@@ -1,5 +1,5 @@
 ﻿using System;
-using main.Ducks.Abstract_Classes;
+using main.Ducks.AbstractClasses;
 using main.Behaviors;
 
 namespace main.Ducks
