@@ -1,20 +1,19 @@
-﻿
-using System;
+﻿using System;
+using main.Behaviors;
 
-namespace main
+namespace main.Ducks.Abstract_Classes
 {
-    abstract class Duck 
+    internal abstract class Duck 
     {
         public string Name { get; }
 
-        public IFly fly;
-
-        public ISwim swim;
-
-        public IQuak quak;
-
-        public IDie die;
-
+        private IFly fly;
+        
+        private ISwim swim;
+        
+        private IQuak quak;
+        
+        private IDie die;
 
         public Duck(string name, IQuak quak, IFly fly, ISwim swim, IDie die = null)
         {
@@ -22,9 +21,8 @@ namespace main
             this.fly = fly;
             this.swim = swim;
             this.quak = quak;
-            this.die = die?? new DuckDie();
+            this.die = die ?? new DuckDie();
         }
-
 
         public void Fly() => fly.Fly();
 

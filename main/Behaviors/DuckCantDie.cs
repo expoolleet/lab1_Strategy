@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace main
+namespace main.Behaviors
 {
-    class DuckCantDie : IDie
+    internal class DuckCantDie : IDie
     {
         public void Die() => Console.WriteLine("Утка бесмертна");
     }

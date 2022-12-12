@@ -1,11 +1,11 @@
 ﻿using System;
+using main.Ducks.Abstract_Classes;
+using main.Behaviors;
 
-namespace main
+namespace main.Ducks
 {
-    class Wild : Duck 
+    internal class Wild : Duck 
     {
-
         public Wild () : base("Дикая утка", new QuakDuck(), new FlyDuck(), new SwimDuck(), new DuckDie()) { }
-
     }
 }

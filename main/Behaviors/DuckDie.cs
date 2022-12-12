@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace main
+namespace main.Behaviors
 {
-    class DuckDie : IDie
+    internal class DuckDie : IDie
     {
         public void Die() => Console.WriteLine("Утка умерла"); 
     }

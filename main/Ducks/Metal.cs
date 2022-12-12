@@ -1,10 +1,11 @@
 ﻿using System;
+using main.Ducks.Abstract_Classes;
+using main.Behaviors;
 
-namespace main
+namespace main.Ducks
 {
-    class Metal : Duck
+    internal class Metal : Duck
     {
         public Metal() : base("Металлическая утка", new DuckCantQuak(), new DuckCantFly(), new DuckCantSwim(), new DuckCantDie()) { }
-
     }
 }

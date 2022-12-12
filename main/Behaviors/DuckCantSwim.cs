@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace main
+namespace main.Behaviors
 {
-    class DuckCantSwim : ISwim
+    internal class DuckCantSwim : ISwim
     {
         public void Swim() => Console.WriteLine("Утка не умеет плавать");
     }

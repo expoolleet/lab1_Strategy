@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace main
+namespace main.Behaviors
 {
-    class DuckCantQuak : IQuak
+    internal class DuckCantQuak : IQuak
     {
         public void Quak() => Console.WriteLine("Утка не умеет крякать");
     }

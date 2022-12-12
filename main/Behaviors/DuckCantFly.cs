@@ -1,9 +1,8 @@
 ﻿using System;
 
-
-namespace main
+namespace main.Behaviors
 {
-    class DuckCantFly : IFly
+    internal class DuckCantFly : IFly
     {
         public void Fly() => Console.WriteLine("Утка не умеет летать");
     }
